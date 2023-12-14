@@ -63,6 +63,11 @@ class ArticleDetailView extends StackedView<ArticleDetailViewModel> {
               subtitle: Text(article.publishedAt),
             ),
             const SizedBox(height: 16),
+            Text(
+              article.description,
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+            const SizedBox(height: 16),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
