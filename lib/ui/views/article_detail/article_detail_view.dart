@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:fmp/models/Article.dart';
 import 'package:fmp/ui/widgets/common/theme_toggle/theme_toggle.dart';
 import 'package:stacked/stacked.dart';
-
-import '../../common/app_colors.dart';
 import 'article_detail_viewmodel.dart';
 
 class ArticleDetailView extends StackedView<ArticleDetailViewModel> {
