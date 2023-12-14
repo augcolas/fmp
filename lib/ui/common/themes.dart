@@ -12,6 +12,7 @@ ThemeData light = ThemeData.light().copyWith(
     titleSmall: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: kcTextLight),
     bodyMedium: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: kcTextLight),
     bodySmall: TextStyle(fontSize: 12, fontWeight: FontWeight.normal, color: kcAccentColorLight),
+    labelSmall: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: kcAccentColorLight),
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
@@ -32,6 +33,7 @@ ThemeData dark = ThemeData.light().copyWith(
     titleSmall: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: kcTextDark),
     bodyMedium: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: kcTextDark),
     bodySmall: TextStyle(fontSize: 12, fontWeight: FontWeight.normal, color: kcAccentColorDark),
+    labelSmall: TextStyle(fontSize: 12, fontWeight: FontWeight.bold, color: kcAccentColorDark),
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
